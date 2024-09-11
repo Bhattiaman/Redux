@@ -1,38 +1,56 @@
-.App {
+/* General container styling */
+div {
   text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Heading styling */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h4 {
+  font-size: 1.5rem;
+  color: #555;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h2 {
+  font-size: 2rem;
+  color: #777;
+}
+
+/* Counter quantity container styling */
+.quantity {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+}
+
+/* Decrement and Increment buttons */
+.quantity_minus, .quanna {
+  background-color: #ff4b4b;
   color: white;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.quantity_minus:hover, .quanna:hover {
+  background-color: #ff6b6b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Input field styling */
+.quanitt {
+  width: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
 }
